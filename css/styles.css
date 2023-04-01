@@ -356,14 +356,12 @@ button {
     color: #F4F4FD;
 }
 .icon {
-    width: 264px;
-    height: 112px;
-    background: #F4F4FD;
-    border-radius: 4px;
     display: inline-block;
     stroke-width: 0;
     stroke: currentColor;
     fill: currentColor;
+    width: 64px;
+    height: 64px;
 }
 .icon-social-media {
     width: 40px;
@@ -412,6 +410,12 @@ button {
     border-radius: 4px;
     padding: 16px 32px;
 }
+.icon-customer:hover {
+    background-color: #404bbf;
+}
+.icon-customer:focus {
+    background-color: #404bbf;
+}
 .social-media-header {
     font-family: 'Roboto';
     font-style: normal;
@@ -432,3 +436,37 @@ button {
     padding-top: 16px;
     gap: 16px;
 }
+.icon-div {
+    width: 264px;
+    height: 112px;
+    background: #F4F4FD;
+    border-radius: 4px;
+    padding-left: 100px;
+    padding-top: 24px;
+}
+.icons-background {
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.icons-background:hover {
+    background-color: #2E2F42;
+}
+.icons-background:focus {
+    background-color: #2E2F42;
+}
+.footer-icons-background {
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.footer-icons-background:hover {
+    background-color: #8E8F99;
+}
+.footer-icons-background:focus {
+    background-color: #8E8F99;
+}
+
+
