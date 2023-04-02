@@ -73,6 +73,7 @@ button {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    padding-right: 40px;
 }
 .address {
     font-style: normal;
@@ -82,6 +83,7 @@ button {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-right: 40px;
 }  
 .colorcontact {
     color: var(--contact-color);
@@ -90,7 +92,7 @@ button {
     background: rgba(46, 47, 66, 0.7);
     padding-top: 188px;
     padding-bottom: 188px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(0, 0, 0, 0.8)), url(../images/background-img.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/background-img.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -127,10 +129,14 @@ button {
     padding: 16px 32px;
 }
 .order-service-button:hover {
-    background-color: #404bbf;
+    background: #404BBF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 .order-service-button:focus {
-    background-color: #404bbf;
+    background: #404BBF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 .third-header {
     font-weight: 500;
@@ -280,7 +286,6 @@ button {
 }
 .flex {
     display: flex;
-    column-gap: 40px;
 }
 .list-of-advantages {
     display: flex;
@@ -402,8 +407,8 @@ button {
 .icon-customer {
     display: inline-block;
     stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor;
+    stroke: #8E8F99;
+    fill: #8E8F99;
     width: 168px;
     height: 88px;
     border: 1px solid #8E8F99;
@@ -411,10 +416,14 @@ button {
     padding: 16px 32px;
 }
 .icon-customer:hover {
-    background-color: #404bbf;
+    border: 1px solid #404BBF;
+    border-radius: 4px;
+    fill: #404BBF;
 }
 .icon-customer:focus {
-    background-color: #404bbf;
+    border: 1px solid #404BBF;
+    border-radius: 4px;
+    fill: #404BBF;
 }
 .social-media-header {
     font-family: 'Roboto';
@@ -451,10 +460,10 @@ button {
     height: 40px;
 }
 .icons-background:hover {
-    background-color: #2E2F42;
+    background-color: #404bbf;
 }
 .icons-background:focus {
-    background-color: #2E2F42;
+    background-color: #404bbf;
 }
 .footer-icons-background {
     background-color: #4D5AE5;
@@ -463,10 +472,10 @@ button {
     height: 40px;
 }
 .footer-icons-background:hover {
-    background-color: #8E8F99;
+    background-color: #31D0AA;
 }
 .footer-icons-background:focus {
-    background-color: #8E8F99;
+    background-color: #31D0AA;
 }
 
 
